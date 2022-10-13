@@ -1,0 +1,127 @@
+.wrapper {      
+}
+.page {     
+}
+.page__container {
+    max-width: 1170px;
+    margin: 0 auto;    
+    
+}
+.bicycle {
+    position: relative;
+}
+
+.bicycle__image {    
+}
+.bicycle__image img {
+    width: 100%;
+}
+.bicycle__road {
+    position: absolute;
+    top: 620px;
+    left: 400px;
+    width: 180px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+.bicycle__road img{     
+    width: 100%;
+    transform: rotateY(180deg);
+}
+.bicycle__road:hover {
+    left: 380px;
+}
+
+.bicycle__bike {
+    position: absolute;
+    top: 680px;
+    left: 100px;
+    width: 200px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+.bicycle__bike:hover {
+    left: 200px;
+}
+.bicycle__bike img {
+    width: 100%;
+}
+.bicycle__mountain {
+    position: absolute;
+    top: 670px;
+    left: 1040px;
+    width: 70px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+.bicycle__mountain:hover {
+    top: 650px;
+    left: 1020px;
+}
+.bicycle__mountain img {
+    width: 100%;
+}
+.bicycle__fall {
+    position: absolute;
+    top: 635px;
+    left: 710px;
+    width: 180px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+.bicycle__fall:hover {
+    transform: rotate(-0.15turn);
+    top: 655px;
+    left: 650px;
+}
+.bicycle__fall img {
+    width: 100%;
+}
+
+.bicycle__fall:hover.bicycle__fall::after{
+    transform: rotate(0.15turn);
+    left: 70px;
+    top: 135px;
+}
+
+.bicycle__fall::after{
+    content: '';
+    position: absolute;
+    top: 140px;
+    left: 90px;
+    width: 20px; 
+    height: 10px;
+    background: black;
+    border-radius: 100px/50px;   
+    transition: all 0.5s ease-out;
+}
+
+.bicycle__bird {
+    position: absolute;
+    top: 105px;
+    left: 850px;
+    width: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+.bicycle__bird:hover {
+    top: 115px;
+    left: 820px;
+}
+.bicycle__bird img {
+    width: 100%;
+}
+.bicycle__hare {
+    position: absolute;
+    top: 755px;
+    left: 710px;
+    width: 70px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+.bicycle__hare:hover {
+    left: 680px;
+}
+.bicycle__hare  img {
+    width: 100%;
+}
